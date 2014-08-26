@@ -1,0 +1,44 @@
+{
+  "name": "grunt-videojs-languages",
+  "description": "A grunt task to convert video.js language JSON files in to includable scripts.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/videojs/grunt-videojs-languages",
+  "author": {
+    "name": "Brightcove"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/videojs/grunt-videojs-languages.git"
+  },
+  "bugs": {
+    "url": "https://github.com/videojs/grunt-videojs-languages/issues"
+  },
+  "licenses": [
+    {
+      "type": "Brightcove",
+      "url": "https://github.com/videojs/grunt-videojs-languages/blob/master/LICENSE"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "load-grunt-tasks": "~0.4.0",
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt-shell": "~0.6.1",
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin",
+    "videojs",
+    "html5",
+    "flash",
+    "video",
+    "player"
+  ]
+}
