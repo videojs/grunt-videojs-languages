@@ -8,7 +8,7 @@ module.exports = function(grunt) {
     this.files.forEach(function(f) {
       var languageName = path.basename(f.src, '.json');
       var languageData = grunt.file.readJSON(f.src);
-      var jsTemplate = 'videojs.addLanguage("' + languageName + '",' + JSON.stringify(languageData) + ');';
+      var jsTemplate = 'videojs.addLanguage("' + languageName + '",' + JSON.stringify(languageData,null,' ') + ');';
       var jsFilePath = path.join(f.dest, languageName + '.js');
       grunt.file.write(jsFilePath, jsTemplate);
       grunt.log.writeln('- [' + languageName +'] Language Built. File "' + jsFilePath + '" created.');
