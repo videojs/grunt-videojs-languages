@@ -1,7 +1,7 @@
 {
   "name": "grunt-videojs-languages",
   "description": "A grunt task to convert video.js language JSON files in to includable scripts.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "https://github.com/videojs/grunt-videojs-languages",
   "author": {
     "name": "Brightcove"
