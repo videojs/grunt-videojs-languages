@@ -3,7 +3,7 @@
 var path = require('path');
 
 module.exports = function(grunt) {
-  grunt.registerMultiTask('videojs_languages', 'A Grunt plugin for compiling VideoJS language assets.', function() {
+  grunt.registerMultiTask('vjslanguages', 'A Grunt plugin for compiling VideoJS language assets.', function() {
 
     this.files.forEach(function(f) {
       var languageName = path.basename(f.src, '.json');
